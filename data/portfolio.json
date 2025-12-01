@@ -1,0 +1,593 @@
+{
+  "personal": {
+    "name": "Marouane NIKH",
+    "title": "Responsable Technique & Consultant Intégration ERP / Full Stack",
+    "email": "marwanenikh204@gmail.com",
+    "phone": "+212 609 771 086",
+    "location": "Casablanca, Maroc",
+    "address": "DB Baladia elHouboss, N15, 20700, Casablanca",
+    "age": 27,
+    "nationality": "Marocaine",
+    "linkedin": "https://www.linkedin.com/in/marouane-nikh-b114411b4",
+    "github": "https://github.com/Marwane1937",
+    "website": "",
+    "summary": "Professionnel doté de nombreuses années d'expérience dans l'informatique, combinées à une solide formation dans le domaine du développement logiciel et une forte aptitude à acquérir de nouvelles connaissances. Capable de travailler aussi bien en équipe qu'en autonomie. Expert polyvalent en Systèmes d'Information, spécialisé en développement Full Stack et en intégration complexe de systèmes ERP (Sage, SAP). Avec plus de 5 ans d'expérience chez Cactus Informatique en tant que Responsable Technique & Consultant, j'excelle dans la transformation de besoins opérationnels (IoT, MES, Pont Bascule) en solutions logicielles robustes et performantes."
+  },
+  "experience": [
+    {
+      "id": 1,
+      "title": "Responsable Informatique (Consultant Technique & Développeur Full Stack)",
+      "company": "Cactus Informatique",
+      "location": "Casablanca, Maroc",
+      "startDate": "2020-11",
+      "endDate": "Présent",
+      "description": "Pilotage de l'architecture logicielle, développement multiplateforme (Web/Mobile/Desktop) et support technique. Expertise en intégration ERP (Sage, SAP) et optimisation des processus métier pour un portefeuille client diversifié.",
+      "achievements": [
+        "Conception d'un Système Intégré pour La Minoterie Royal (Gestion Commerciale, Stock, Pont Bascule) avec interfaçage direct des machines du moulin",
+        "Développement d'un MES (Manufacturing Execution System) pour Les Frigorifiques de Victoria avec traçabilité en temps réel (Pesée connectée, RFID, Suivi des tâches)",
+        "Intégration Pont Bascule - ERP Sage pour KARAMA RECYCLAGE avec création automatique des bons d'entrée",
+        "Interface d'intégration du poids en temps réel (balance connectée) vers Sage Commercial pour Omega Industrielle",
+        "Administration et Optimisation de BDD critiques sur SQL Server (système > 20 ans) pour La Voie Express",
+        "Développement de rapports opérationnels complexes (Reporting XML) et applications spécifiques pour Isomed & Les Bascules Mondial"
+      ],
+      "technologies": ["Node.js", "JavaScript", "Angular", "Laravel", "Electron.js", "Framework Cactus", "PHP", "SQL Server", "MongoDB", "Docker", "KVM", "REST API", "SOAP"]
+    },
+    {
+      "id": 2,
+      "title": "Développeur Full Stack",
+      "company": "OSOIT",
+      "location": "Casablanca-Settat, Maroc",
+      "startDate": "2020-06",
+      "endDate": "2020-10",
+      "description": "Développement d'une application Web complète de caisse (Point de Vente - POS) en tant que développeur Full Stack. Conception de l'interface utilisateur et des services back-end pour des besoins spécifiques, notamment dans le secteur du textile.",
+      "achievements": [
+        "Conception et Réalisation d'une Application WEB de Caisse (POS) complète",
+        "Développement Front-end avec HTML5, CSS3, Bootstrap et Angular pour une expérience utilisateur moderne et réactive",
+        "Mise en place des services API et de la logique métier sous Laravel (PHP)",
+        "Application d'une logique métier spécifique au secteur du textile (gestion des variations de produits, tailles, couleurs)",
+        "Prise en charge de toutes les étapes, de l'analyse des besoins à l'intégration des fonctionnalités et aux tests"
+      ],
+      "technologies": ["HTML5", "CSS3", "Bootstrap", "Angular", "Laravel", "PHP", "REST API"]
+    },
+    {
+      "id": 3,
+      "title": "Technicien en développement informatique",
+      "company": "Sorvetes Saravete",
+      "location": "Marrakech, Maroc",
+      "startDate": "2020-02",
+      "endDate": "2020-07",
+      "description": "Installation et configuration de nouveaux équipements, contrôle de conformité, mise en service d'installations, support téléphonique et assistance aux utilisateurs.",
+      "achievements": [
+        "Installation et configuration de nouveaux équipements, assurant un fonctionnement optimal",
+        "Contrôle de conformité des équipements par rapport aux plans et à la documentation technique",
+        "Mise en service d'installations, assurant la conformité et la sécurité du système",
+        "Support téléphonique et assistance aux utilisateurs pour le dépannage simple ou informations complémentaires"
+      ],
+      "technologies": ["Java", "SQL Server"]
+    },
+    {
+      "id": 4,
+      "title": "Stage de fin d'études",
+      "company": "Sorvetes Saravete",
+      "location": "Marrakech, Maroc",
+      "startDate": "2019-12",
+      "endDate": "2020-05",
+      "description": "Conception et développement d'une application de gestion de flotte et de location de véhicules. Axé sur les besoins fonctionnels du secteur, le projet a permis l'application de principes de développement logiciel avancé et d'administration de bases de données.",
+      "achievements": [
+        "Développement d'une Application Desktop de Location de Voiture complète",
+        "Développement Back-end en Java Avancé avec création de la logique métier (gestion des contrats, calcul des durées, facturation, suivi de la flotte)",
+        "Implémentation du système de persistance des données via SQL Server",
+        "Conception de la base de données relationnelle pour assurer l'intégrité et la gestion efficace des informations",
+        "Gestion complète du cycle de location (de la réservation au retour) avec suivi des disponibilités en temps réel"
+      ],
+      "technologies": ["Java", "SQL Server", "GUI"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "Master en génie logiciel et web Application",
+      "institution": "Faculté des Sciences Techniques - Settat",
+      "location": "Settat, Maroc",
+      "startDate": "2021",
+      "endDate": "2023",
+      "grade": "Bien",
+      "description": "Formation approfondie en ingénierie informatique avec spécialisation en développement logiciel et applications web. Compétences acquises : Java, Python, C++, Framework Django REST."
+    },
+    {
+      "id": 2,
+      "degree": "Licence professionnelle: Génie informatique",
+      "institution": "Ecole Supérieure de Technologie - Kenitra",
+      "location": "Kenitra, Maroc",
+      "startDate": "2020",
+      "endDate": "2021",
+      "grade": "Bien",
+      "description": "Formation en génie informatique couvrant les fondamentaux du développement logiciel, des systèmes d'information et de l'administration de systèmes. Compétences acquises : C++, HTML5, Linux."
+    },
+    {
+      "id": 3,
+      "degree": "Technicien spécialisé développement Informatique",
+      "institution": "ISTIA Ntic 2 - Casablanca",
+      "location": "Casablanca, Maroc",
+      "startDate": "2018",
+      "endDate": "2020",
+      "grade": "Assez-Bien",
+      "description": "Formation technique spécialisée en développement informatique."
+    },
+    {
+      "id": 4,
+      "degree": "DEUG physique chimie",
+      "institution": "Faculté Hassan 2 - AIN CHOK - Casablanca",
+      "location": "Casablanca, Maroc",
+      "startDate": "2016",
+      "endDate": "2018",
+      "grade": "Assez-Bien",
+      "description": "Diplôme d'études universitaires générales en physique et chimie."
+    },
+    {
+      "id": 5,
+      "degree": "Baccalauréat science physique",
+      "institution": "Lycée Imam El Boukhari",
+      "location": "Casablanca, Maroc",
+      "startDate": "2015",
+      "endDate": "2016",
+      "grade": "Assez-Bien",
+      "description": "Baccalauréat scientifique, spécialité sciences physiques."
+    }
+  ],
+  "languages": [
+    {
+      "name": "Arabe",
+      "level": "Langue maternelle",
+      "proficiency": 100
+    },
+    {
+      "name": "Français",
+      "level": "Courant",
+      "proficiency": 90
+    },
+    {
+      "name": "Anglais",
+      "level": "Intermédiaire",
+      "proficiency": 60
+    }
+  ],
+  "interests": [
+    "Passion pour la photographie",
+    "Musique",
+    "Cinéma",
+    "Arts créatifs"
+  ],
+  "technologies": [
+    {
+      "category": "Backend",
+      "skills": [
+        {
+          "name": "Node.js",
+          "level": "Expert",
+          "years": 4
+        },
+        {
+          "name": "JavaScript",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "PHP",
+          "level": "Avancé",
+          "years": 4
+        },
+        {
+          "name": "Laravel",
+          "level": "Avancé",
+          "years": 4
+        },
+        {
+          "name": "Java",
+          "level": "Avancé",
+          "years": 3
+        },
+        {
+          "name": "Python",
+          "level": "Avancé",
+          "years": 3
+        },
+        {
+          "name": "Django REST",
+          "level": "Intermédiaire",
+          "years": 2
+        },
+        {
+          "name": "C++",
+          "level": "Avancé",
+          "years": 3
+        }
+      ]
+    },
+    {
+      "category": "Frontend",
+      "skills": [
+        {
+          "name": "HTML5",
+          "level": "Expert",
+          "years": 6
+        },
+        {
+          "name": "CSS3",
+          "level": "Expert",
+          "years": 6
+        },
+        {
+          "name": "Bootstrap",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "JavaScript",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "Angular",
+          "level": "Avancé",
+          "years": 4
+        },
+        {
+          "name": "React",
+          "level": "Avancé",
+          "years": 2
+        },
+        {
+          "name": "Electron.js",
+          "level": "Avancé",
+          "years": 3
+        }
+      ]
+    },
+    {
+      "category": "Base de données",
+      "skills": [
+        {
+          "name": "SQL Server",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "MongoDB",
+          "level": "Avancé",
+          "years": 3
+        },
+        {
+          "name": "Administration BDD",
+          "level": "Expert",
+          "years": 5
+        }
+      ]
+    },
+    {
+      "category": "Infrastructure & DevOps",
+      "skills": [
+        {
+          "name": "Docker",
+          "level": "Avancé",
+          "years": 3
+        },
+        {
+          "name": "KVM",
+          "level": "Avancé",
+          "years": 3
+        },
+        {
+          "name": "Virtualisation",
+          "level": "Avancé",
+          "years": 3
+        },
+        {
+          "name": "Linux",
+          "level": "Avancé",
+          "years": 4
+        }
+      ]
+    },
+    {
+      "category": "Intégration & API",
+      "skills": [
+        {
+          "name": "REST API",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "SOAP",
+          "level": "Avancé",
+          "years": 4
+        },
+        {
+          "name": "Intégration ERP (Sage, SAP)",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "Web Services",
+          "level": "Expert",
+          "years": 5
+        }
+      ]
+    },
+    {
+      "category": "Outils & Frameworks",
+      "skills": [
+        {
+          "name": "Framework Cactus",
+          "level": "Expert",
+          "years": 4
+        },
+        {
+          "name": "Git/GitHub",
+          "level": "Avancé",
+          "years": 5
+        },
+        {
+          "name": "PowerBuilder",
+          "level": "Avancé",
+          "years": 3
+        },
+        {
+          "name": "DevExpress",
+          "level": "Avancé",
+          "years": 3
+        },
+        {
+          "name": "WordPress",
+          "level": "Avancé",
+          "years": 2
+        }
+      ]
+    },
+    {
+      "category": "Reporting & Analyse",
+      "skills": [
+        {
+          "name": "Crystal Report",
+          "level": "Expert",
+          "years": 5
+        },
+        {
+          "name": "JS Report",
+          "level": "Expert",
+          "years": 4
+        },
+        {
+          "name": "Jasper Report",
+          "level": "Expert",
+          "years": 4
+        },
+        {
+          "name": "JSPDF",
+          "level": "Expert",
+          "years": 4
+        },
+        {
+          "name": "Power BI",
+          "level": "Opérationnel",
+          "years": 2
+        },
+        {
+          "name": "Data Warehouse",
+          "level": "Opérationnel",
+          "years": 2
+        }
+      ]
+    },
+    {
+      "category": "Compétences Transversales",
+      "skills": [
+        {
+          "name": "Esprit d'équipe",
+          "level": "Expert",
+          "years": 10
+        },
+        {
+          "name": "Travail en équipe",
+          "level": "Expert",
+          "years": 10
+        },
+        {
+          "name": "Capacités d'adaptation",
+          "level": "Expert",
+          "years": 10
+        },
+        {
+          "name": "Flexibilité",
+          "level": "Expert",
+          "years": 10
+        },
+        {
+          "name": "Autonomie",
+          "level": "Expert",
+          "years": 10
+        },
+        {
+          "name": "Capacité d'analyse",
+          "level": "Expert",
+          "years": 10
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "Application Web de Caisse (POS) - Secteur Textile",
+      "description": "Développement d'une application Web complète de caisse (Point de Vente - POS) en tant que développeur Full Stack. Conception de l'interface utilisateur et des services back-end pour des besoins spécifiques, notamment dans le secteur du textile.",
+      "technologies": ["HTML5", "CSS3", "Bootstrap", "Angular", "Laravel", "PHP", "REST API"],
+      "github": "",
+      "demo": "",
+      "features": [
+        "Développement Front-end avec HTML5, CSS3, Bootstrap et Angular",
+        "Interface utilisateur moderne et réactive",
+        "Développement Back-end avec Laravel (PHP)",
+        "Services API et logique métier complète",
+        "Gestion des transactions, stocks et authentification",
+        "Logique métier spécifique au secteur textile",
+        "Gestion des variations de produits (tailles, couleurs, références)",
+        "Émission de reçus personnalisés",
+        "Cycle de développement complet de l'analyse à l'intégration"
+      ],
+      "year": 2020
+    },
+    {
+      "id": 2,
+      "title": "Application de Gestion de Flotte et Location de Véhicules",
+      "description": "Application Desktop complète pour la gestion de flotte et la location de véhicules. Axé sur les besoins fonctionnels du secteur, le projet a permis l'application de principes de développement logiciel avancé et d'administration de bases de données.",
+      "technologies": ["Java", "SQL Server", "GUI"],
+      "github": "",
+      "demo": "",
+      "features": [
+        "Gestion complète du cycle de location (réservation au retour)",
+        "Calcul automatique des durées et facturation",
+        "Suivi des disponibilités en temps réel",
+        "Base de données relationnelle optimisée",
+        "Interface graphique intuitive",
+        "Gestion des contrats et suivi de la flotte"
+      ],
+      "year": 2020
+    },
+    {
+      "id": 3,
+      "title": "MES (Manufacturing Execution System) - Les Frigorifiques de Victoria",
+      "description": "Développement d'un système MES complet pour la traçabilité en temps réel avec intégration de pesée connectée, RFID et suivi des tâches par employé, permettant le calcul précis du rendement.",
+      "technologies": ["Node.js", "Angular", "MongoDB", "IoT", "RFID", "REST API"],
+      "github": "",
+      "demo": "",
+      "features": [
+        "Traçabilité en temps réel complète",
+        "Pesée connectée avec intégration automatique",
+        "Système RFID pour le suivi des produits",
+        "Suivi des tâches par employé",
+        "Calcul précis du rendement",
+        "Tableaux de bord en temps réel"
+      ],
+      "year": 2021
+    },
+    {
+      "id": 4,
+      "title": "Système Intégré - La Minoterie Royal",
+      "description": "Conception d'un Système Intégré complet incluant la Gestion Commerciale, le Stock et le Pont Bascule, avec interfaçage direct des machines du moulin pour optimiser la performance et la traçabilité en temps réel.",
+      "technologies": ["Node.js", "JavaScript", "SQL Server", "REST API", "Sage ERP", "IoT"],
+      "github": "",
+      "demo": "",
+      "features": [
+        "Gestion Commerciale intégrée",
+        "Gestion de Stock en temps réel",
+        "Intégration Pont Bascule",
+        "Interfaçage direct des machines du moulin",
+        "Optimisation de la performance opérationnelle",
+        "Traçabilité complète du processus de production"
+      ],
+      "year": 2021
+    },
+    {
+      "id": 5,
+      "title": "Application Desktop - Marché de Gros Public Yacoub El Mansour",
+      "description": "Développement d'une application desktop complète pour la gestion du marché de gros public Yacoub El Mansour. Le système gère le marché, la gestion des mondataires, le pont bascule et génère des rapports quotidiens pour la préfecture de Rabat.",
+      "technologies": ["PowerBuilder", "SQL Server", "Crystal Report", "DevExpress", "Framework Cactus"],
+      "github": "",
+      "demo": "",
+      "features": [
+        "Gestion complète du marché de gros",
+        "Gestion des mondataires (marchands)",
+        "Intégration du pont bascule",
+        "Génération de rapports quotidiens",
+        "Rapports automatisés pour la préfecture de Rabat",
+        "Interface desktop intuitive et performante",
+        "Système de traçabilité des transactions"
+      ],
+      "year": 2022
+    },
+    {
+      "id": 6,
+      "title": "Intégration Pont Bascule - ERP Sage - KARAMA RECYCLAGE",
+      "description": "Intégration complète entre le Pont Bascule et l'ERP Sage pour la création automatique des bons d'entrée. Système de gestion des dépôts (triage, pliage, etc.) pour un suivi des coûts détaillé.",
+      "technologies": ["Node.js", "SQL Server", "Sage ERP", "REST API", "SOAP"],
+      "github": "",
+      "demo": "",
+      "features": [
+        "Intégration complète Pont Bascule - ERP Sage",
+        "Création automatique des bons d'entrée",
+        "Gestion des dépôts (triage, pliage, etc.)",
+        "Suivi détaillé des coûts",
+        "Automatisation complète des processus d'entrée",
+        "Interface temps réel pour la synchronisation"
+      ],
+      "year": 2021
+    },
+    {
+      "id": 7,
+      "title": "Interface Balance Connectée - Omega Industrielle",
+      "description": "Interface pour l'intégration du poids en temps réel depuis une balance connectée directement vers Sage Commercial, permettant une synchronisation automatique des données de pesée.",
+      "technologies": ["Node.js", "JavaScript", "Sage Commercial", "REST API", "IoT"],
+      "github": "",
+      "demo": "",
+      "features": [
+        "Intégration balance connectée - Sage Commercial",
+        "Synchronisation automatique des données de pesée",
+        "Intégration en temps réel",
+        "Élimination des erreurs manuelles",
+        "Interface IoT pour la connexion des balances",
+        "Traçabilité complète des pesées"
+      ],
+      "year": 2021
+    }
+  ],
+  "solutions": [
+    {
+      "id": 1,
+      "title": "Système Intégré - La Minoterie Royal",
+      "description": "Conception d'un Système Intégré complet incluant la Gestion Commerciale, le Stock et le Pont Bascule, avec interfaçage direct des machines du moulin pour optimiser la performance et la traçabilité en temps réel.",
+      "category": "Intégration ERP & IoT",
+      "technologies": ["Node.js", "JavaScript", "SQL Server", "REST API", "Sage ERP"],
+      "impact": "Optimisation de la performance opérationnelle et amélioration de la traçabilité complète du processus de production"
+    },
+    {
+      "id": 2,
+      "title": "MES (Manufacturing Execution System) - Les Frigorifiques de Victoria",
+      "description": "Développement d'un système MES complet pour la traçabilité en temps réel avec intégration de pesée connectée, RFID et suivi des tâches par employé, permettant le calcul précis du rendement.",
+      "category": "MES & Traçabilité",
+      "technologies": ["Node.js", "Angular", "MongoDB", "IoT", "RFID"],
+      "impact": "Traçabilité en temps réel complète et calcul précis du rendement pour optimiser la productivité"
+    },
+    {
+      "id": 3,
+      "title": "Intégration Pont Bascule - ERP Sage - KARAMA RECYCLAGE",
+      "description": "Intégration complète entre le Pont Bascule et l'ERP Sage pour la création automatique des bons d'entrée. Système de gestion des dépôts (triage, pliage, etc.) pour un suivi des coûts détaillé.",
+      "category": "Intégration ERP",
+      "technologies": ["Node.js", "SQL Server", "Sage ERP", "REST API", "SOAP"],
+      "impact": "Automatisation complète des processus d'entrée et suivi détaillé des coûts pour une meilleure gestion opérationnelle"
+    },
+    {
+      "id": 4,
+      "title": "Interface Balance Connectée - Omega Industrielle",
+      "description": "Interface pour l'intégration du poids en temps réel depuis une balance connectée directement vers Sage Commercial, permettant une synchronisation automatique des données de pesée.",
+      "category": "Intégration IoT & ERP",
+      "technologies": ["Node.js", "JavaScript", "Sage Commercial", "REST API", "IoT"],
+      "impact": "Synchronisation automatique des données de pesée en temps réel, éliminant les erreurs manuelles"
+    },
+    {
+      "id": 5,
+      "title": "Optimisation BDD Critique - La Voie Express",
+      "description": "Administration et optimisation de bases de données critiques sur SQL Server pour un système legacy de plus de 20 ans. Développement et maintenance d'interfaces métier en Power Builder.",
+      "category": "Administration BDD & Legacy",
+      "technologies": ["SQL Server", "Power Builder", "Optimisation BDD"],
+      "impact": "Amélioration significative des performances d'un système critique legacy et maintien de la stabilité opérationnelle"
+    },
+    {
+      "id": 6,
+      "title": "Rapports Opérationnels Complexes - Isomed & Les Bascules Mondial",
+      "description": "Développement de rapports opérationnels complexes (Reporting XML) et d'applications spécifiques pour la gestion de marché public, répondant aux besoins réglementaires spécifiques.",
+      "category": "Reporting & Applications Métier",
+      "technologies": ["XML", "Reporting", "Applications Métier"],
+      "impact": "Automatisation des rapports réglementaires et amélioration de la gestion des marchés publics"
+    }
+  ]
+}

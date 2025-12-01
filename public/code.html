@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marouane NIKH - Code Profile</title>
+    <link rel="stylesheet" href="code-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="code-container">
+        <!-- Terminal Header -->
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="btn-close"></span>
+                <span class="btn-minimize"></span>
+                <span class="btn-maximize"></span>
+            </div>
+            <div class="terminal-title">marouane-nikh.js</div>
+            <button class="theme-toggle-code" id="theme-toggle-code" aria-label="Toggle theme">
+                <span class="theme-icon-code" id="theme-icon-code">🌙</span>
+            </button>
+        </div>
+
+        <!-- Code Content -->
+        <div class="code-content">
+            <pre><code class="language-javascript"><span class="comment">/**
+ * MAROUANE NIKH
+ * Responsable Technique & Consultant Intégration ERP / Full Stack
+ * 
+ * @version 1.0.0
+ * @since 2020
+ */</span>
+
+<span class="keyword">class</span> <span class="class-name">MarouaneNikh</span> <span class="keyword">extends</span> <span class="class-name">FullStackDeveloper</span> {
+    
+    <span class="keyword">constructor</span>() {
+        <span class="keyword">this</span>.<span class="property">name</span> = <span class="string">"Marouane NIKH"</span>;
+        <span class="keyword">this</span>.<span class="property">title</span> = <span class="string">"Responsable Technique & Consultant Intégration ERP / Full Stack"</span>;
+        <span class="keyword">this</span>.<span class="property">location</span> = <span class="string">"Casablanca, Maroc"</span>;
+        <span class="keyword">this</span>.<span class="property">age</span> = <span class="number">27</span>;
+        <span class="keyword">this</span>.<span class="property">nationality</span> = <span class="string">"Marocaine"</span>;
+        <span class="keyword">this</span>.<span class="property">email</span> = <span class="string">"marwanenikh204@gmail.com"</span>;
+        <span class="keyword">this</span>.<span class="property">phone</span> = <span class="string">"+212 609 771 086"</span>;
+        <span class="keyword">this</span>.<span class="property">linkedin</span> = <span class="string">"www.linkedin.com/in/marouane-nikh-b114411b4"</span>;
+        <span class="keyword">this</span>.<span class="property">github</span> = <span class="string">"https://github.com/Marwane1937"</span>;
+        <span class="keyword">this</span>.<span class="property">yearsOfExperience</span> = <span class="number">5</span>;
+    }
+
+    <span class="comment">/**
+     * PROFIL PROFESSIONNEL
+     */</span>
+    <span class="function">getProfile</span>() {
+        <span class="keyword">return</span> {
+            <span class="property">description</span>: <span class="string">`Professionnel doté de nombreuses années d'expérience dans l'informatique, 
+            combinées à une solide formation dans le domaine du développement logiciel 
+            et une forte aptitude à acquérir de nouvelles connaissances. 
+            Capable de travailler aussi bien en équipe qu'en autonomie.`</span>,
+            <span class="property">specialization</span>: <span class="string">"Expert en intégration ERP (Sage, SAP) et développement Full Stack"</span>,
+            <span class="property">strengths</span>: [
+                <span class="string">"Transformation de besoins opérationnels en solutions logicielles"</span>,
+                <span class="string">"Architecture logicielle et administration de bases de données"</span>,
+                <span class="string">"Développement multiplateforme (Web/Mobile/Desktop)"</span>,
+                <span class="string">"Intégration IoT et systèmes ERP"</span>
+            ]
+        };
+    }
+
+    <span class="comment">/**
+     * COMPÉTENCES TECHNIQUES
+     */</span>
+    <span class="function">getSkills</span>() {
+        <span class="keyword">return</span> {
+            <span class="property">programming</span>: {
+                <span class="property">languages</span>: [
+                    <span class="string">"JavaScript"</span>, <span class="string">"Node.js"</span>, <span class="string">"PHP"</span>, 
+                    <span class="string">"Java"</span>, <span class="string">"C++"</span>, <span class="string">"C#"</span>, 
+                    <span class="string">"Python"</span>, <span class="string">"C"</span>
+                ],
+                <span class="property">frameworks</span>: [
+                    <span class="string">"Angular"</span>, <span class="string">"Laravel"</span>, <span class="string">"Express.js"</span>,
+                    <span class="string">"NestJS"</span>, <span class="string">"Electron.js"</span>, <span class="string">"Cactus Framework"</span>,
+                    <span class="string">"Flutter"</span>, <span class="string">".NET"</span>, <span class="string">"Django REST"</span>
+                ],
+                <span class="property">frontend</span>: [
+                    <span class="string">"HTML5"</span>, <span class="string">"CSS3"</span>, <span class="string">"Bootstrap 5"</span>,
+                    <span class="string">"React"</span>, <span class="string">"Angular"</span>
+                ],
+                <span class="property">level</span>: <span class="string">"Avancé à Expert"</span>
+            },
+            <span class="property">databases</span>: {
+                <span class="property">systems</span>: [
+                    <span class="string">"SQL Server"</span>, <span class="string">"MongoDB"</span>, <span class="string">"Oracle"</span>
+                ],
+                <span class="property">expertise</span>: [
+                    <span class="string">"Administration des Bases de données"</span>,
+                    <span class="string">"Requêtage SQL"</span>,
+                    <span class="string">"Optimisation de BDD critiques"</span>
+                ],
+                <span class="property">level</span>: <span class="string">"Avancé"</span>
+            },
+            <span class="property">infrastructure</span>: {
+                <span class="property">virtualization</span>: [
+                    <span class="string">"Docker"</span>, <span class="string">"KVM"</span>, <span class="string">"VMware vSphere"</span>,
+                    <span class="string">"Virt-manager"</span>
+                ],
+                <span class="property">administration</span>: [
+                    <span class="string">"Linux"</span>, <span class="string">"Windows Server 2012"</span>
+                ],
+                <span class="property">level</span>: <span class="string">"Avancé à Opérationnel"</span>
+            },
+            <span class="property">integration</span>: {
+                <span class="property">erp</span>: [
+                    <span class="string">"Sage"</span>, <span class="string">"SAP"</span>, <span class="string">"Sejid"</span>
+                ],
+                <span class="property">webServices</span>: [
+                    <span class="string">"REST API"</span>, <span class="string">"SOAP"</span>
+                ],
+                <span class="property">level</span>: <span class="string">"Expert"</span>
+            },
+            <span class="property">reporting</span>: {
+                <span class="property">tools</span>: [
+                    <span class="string">"Crystal Report"</span>, <span class="string">"JS Report"</span>,
+                    <span class="string">"Jasper Report"</span>, <span class="string">"JSPDF"</span>
+                ],
+                <span class="property">level</span>: <span class="string">"Expert"</span>
+            },
+            <span class="property">other</span>: {
+                <span class="property">tools</span>: [
+                    <span class="string">"Power BI"</span>, <span class="string">"Data Warehouse"</span>,
+                    <span class="string">"WordPress"</span>, <span class="string">"PowerBuilder"</span>,
+                    <span class="string">"DevExpress"</span>, <span class="string">"GitHub"</span>
+                ]
+            }
+        };
+    }
+
+    <span class="comment">/**
+     * EXPÉRIENCE PROFESSIONNELLE
+     */</span>
+    <span class="function">getExperience</span>() {
+        <span class="keyword">return</span> [
+            {
+                <span class="property">position</span>: <span class="string">"Responsable Informatique (Consultant Technique & Développeur Full Stack)"</span>,
+                <span class="property">company</span>: <span class="string">"Cactus Informatique"</span>,
+                <span class="property">location</span>: <span class="string">"Casablanca, Maroc"</span>,
+                <span class="property">period</span>: <span class="string">"Nov 2020 - Présent"</span>,
+                <span class="property">type</span>: <span class="string">"CDI - Hybrid"</span>,
+                <span class="property">responsibilities</span>: [
+                    <span class="string">"Pilotage de l'architecture logicielle"</span>,
+                    <span class="string">"Développement multiplateforme (Web/Mobile/Desktop)"</span>,
+                    <span class="string">"Support technique et administration réseau"</span>,
+                    <span class="string">"Intégration ERP (Sage, SAP, Sejid)"</span>,
+                    <span class="string">"Administration et optimisation de BDD critiques"</span>,
+                    <span class="string">"Développement de solutions intégrées avec ERP"</span>,
+                    <span class="string">"Conception de rapports opérationnels et décisionnels"</span>,
+                    <span class="string">"Configuration RAID et virtualisation serveur"</span>
+                ],
+                <span class="property">keyProjects</span>: [
+                    {
+                        <span class="property">client</span>: <span class="string">"La Minoterie Royal"</span>,
+                        <span class="property">project</span>: <span class="string">"Système Intégré (Gestion Commerciale, Stock, Pont Bascule)"</span>
+                    },
+                    {
+                        <span class="property">client</span>: <span class="string">"Les Frigorifiques de Victoria"</span>,
+                        <span class="property">project</span>: <span class="string">"MES - Manufacturing Execution System"</span>
+                    },
+                    {
+                        <span class="property">client</span>: <span class="string">"KARAMA RECYCLAGE"</span>,
+                        <span class="property">project</span>: <span class="string">"Intégration Pont Bascule - ERP Sage"</span>
+                    },
+                    {
+                        <span class="property">client</span>: <span class="string">"Omega Industrielle"</span>,
+                        <span class="property">project</span>: <span class="string">"Interface balance connectée vers Sage Commercial"</span>
+                    },
+                    {
+                        <span class="property">client</span>: <span class="string">"La Voie Express"</span>,
+                        <span class="property">project</span>: <span class="string">"Administration BDD SQL Server (système > 20 ans)"</span>
+                    },
+                    {
+                        <span class="property">client</span>: <span class="string">"Isomed & Les Bascules Mondial"</span>,
+                        <span class="property">project</span>: <span class="string">"Rapports opérationnels complexes (Reporting XML)"</span>
+                    }
+                ]
+            },
+            {
+                <span class="property">position</span>: <span class="string">"Développeur Full Stack"</span>,
+                <span class="property">company</span>: <span class="string">"OSOIT"</span>,
+                <span class="property">location</span>: <span class="string">"Casablanca-Settat, Maroc"</span>,
+                <span class="property">period</span>: <span class="string">"Juin 2020 - Oct 2020"</span>,
+                <span class="property">type</span>: <span class="string">"Stage - Hybrid"</span>,
+                <span class="property">project</span>: <span class="string">"Application Web de Caisse (POS) - Secteur Textile"</span>,
+                <span class="property">technologies</span>: [
+                    <span class="string">"HTML5"</span>, <span class="string">"CSS3"</span>, <span class="string">"Bootstrap"</span>,
+                    <span class="string">"Angular"</span>, <span class="string">"Laravel"</span>, <span class="string">"PHP"</span>
+                ]
+            },
+            {
+                <span class="property">position</span>: <span class="string">"Technicien en développement informatique"</span>,
+                <span class="property">company</span>: <span class="string">"Sorvetes Saravete"</span>,
+                <span class="property">location</span>: <span class="string">"Marrakech, Maroc"</span>,
+                <span class="property">period</span>: <span class="string">"Déc 2019 - Mai 2020"</span>,
+                <span class="property">type</span>: <span class="string">"Stage de fin d'études - Remote"</span>,
+                <span class="property">project</span>: <span class="string">"Application Desktop de Gestion de Flotte et Location de Véhicules"</span>,
+                <span class="property">technologies</span>: [
+                    <span class="string">"Java"</span>, <span class="string">"SQL Server"</span>, <span class="string">"GUI"</span>
+                ]
+            }
+        ];
+    }
+
+    <span class="comment">/**
+     * FORMATION
+     */</span>
+    <span class="function">getEducation</span>() {
+        <span class="keyword">return</span> [
+            {
+                <span class="property">degree</span>: <span class="string">"Master en génie logiciel et web Application"</span>,
+                <span class="property">institution</span>: <span class="string">"Faculté des Sciences Techniques - Settat"</span>,
+                <span class="property">period</span>: <span class="string">"Oct 2021 - Juil 2023"</span>,
+                <span class="property">grade</span>: <span class="string">"Bien"</span>,
+                <span class="property">skills</span>: [<span class="string">"Java"</span>, <span class="string">"Python"</span>, <span class="string">"C++"</span>, <span class="string">"Django REST"</span>]
+            },
+            {
+                <span class="property">degree</span>: <span class="string">"Licence professionnelle: Génie informatique"</span>,
+                <span class="property">institution</span>: <span class="string">"Ecole Supérieure de Technologie - Kenitra"</span>,
+                <span class="property">period</span>: <span class="string">"Oct 2020 - Juil 2021"</span>,
+                <span class="property">grade</span>: <span class="string">"Bien"</span>,
+                <span class="property">skills</span>: [<span class="string">"C++"</span>, <span class="string">"HTML5"</span>, <span class="string">"Linux"</span>]
+            },
+            {
+                <span class="property">degree</span>: <span class="string">"Technicien spécialisé développement Informatique"</span>,
+                <span class="property">institution</span>: <span class="string">"ISTIA Ntic 2 - Casablanca"</span>,
+                <span class="property">period</span>: <span class="string">"Sep 2018 - Juil 2020"</span>,
+                <span class="property">grade</span>: <span class="string">"Assez-Bien"</span>
+            },
+            {
+                <span class="property">degree</span>: <span class="string">"DEUG physique chimie"</span>,
+                <span class="property">institution</span>: <span class="string">"Faculté Hassan 2 - AIN CHOK - Casablanca"</span>,
+                <span class="property">period</span>: <span class="string">"Oct 2016 - Juin 2018"</span>,
+                <span class="property">grade</span>: <span class="string">"Assez-Bien"</span>
+            },
+            {
+                <span class="property">degree</span>: <span class="string">"Baccalauréat science physique"</span>,
+                <span class="property">institution</span>: <span class="string">"Lycée Imam El Boukhari - Casablanca"</span>,
+                <span class="property">period</span>: <span class="string">"Sep 2015 - Juin 2016"</span>,
+                <span class="property">grade</span>: <span class="string">"Assez-Bien"</span>
+            }
+        ];
+    }
+
+    <span class="comment">/**
+     * LANGUES
+     */</span>
+    <span class="function">getLanguages</span>() {
+        <span class="keyword">return</span> {
+            <span class="property">arabe</span>: <span class="string">"Langue maternelle"</span>,
+            <span class="property">français</span>: <span class="string">"Courant"</span>,
+            <span class="property">anglais</span>: <span class="string">"Intermédiaire"</span>
+        };
+    }
+
+    <span class="comment">/**
+     * CENTRES D'INTÉRÊT
+     */</span>
+    <span class="function">getInterests</span>() {
+        <span class="keyword">return</span> [
+            <span class="string">"Passion pour la photographie"</span>,
+            <span class="string">"Musique"</span>,
+            <span class="string">"Cinéma"</span>,
+            <span class="string">"Arts créatifs"</span>
+        ];
+    }
+
+    <span class="comment">/**
+     * MÉTHODES PRINCIPALES
+     */</span>
+    <span class="function">develop</span>(project) {
+        <span class="keyword">return</span> <span class="string">`Développement de ${project} avec excellence`</span>;
+    }
+
+    <span class="function">integrate</span>(system1, system2) {
+        <span class="keyword">return</span> <span class="string">`Intégration réussie entre ${system1} et ${system2}`</span>;
+    }
+
+    <span class="function">optimize</span>(system) {
+        <span class="keyword">return</span> <span class="string">`Optimisation de ${system} pour une performance maximale`</span>;
+    }
+}
+
+<span class="comment">// Instance du développeur</span>
+<span class="keyword">const</span> <span class="variable">developer</span> = <span class="keyword">new</span> <span class="class-name">MarouaneNikh</span>();
+
+<span class="comment">// Export pour utilisation</span>
+<span class="keyword">export</span> <span class="keyword">default</span> <span class="variable">developer</span>;
+
+<span class="comment">// Console log pour test</span>
+<span class="function">console</span>.<span class="function">log</span>(<span class="string">'🚀 Portfolio chargé avec succès!'</span>);
+<span class="function">console</span>.<span class="function">log</span>(<span class="variable">developer</span>.<span class="function">getProfile</span>());
+</code></pre>
+        </div>
+
+        <!-- Navigation -->
+        <div class="code-navigation">
+            <a href="index.html" class="nav-btn">← Retour au Portfolio</a>
+            <button class="nav-btn" onclick="copyCode()">📋 Copier le code</button>
+            <button class="nav-btn" onclick="downloadCode()">💾 Télécharger</button>
+        </div>
+    </div>
+
+    <script src="code-script.js"></script>
+</body>
+</html>
+
