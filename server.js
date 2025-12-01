@@ -10,7 +10,10 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('public'));
+
+// Servir les fichiers statiques - chemin absolu pour Vercel
+const publicPath = path.join(__dirname, 'public');
+app.use(express.static(publicPath));
 
 // Import des données du portfolio
 const portfolioData = require('./data/portfolio.json');
@@ -110,9 +113,25 @@ app.post('/api/feedback', (req, res) => {
   });
 });
 
-// Route principale
+// Route principale - servir index.html
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  const indexPath = path.join(__dirname, 'public', 'index.html');
+  res.sendFile(indexPath);
+});
+
+// Route pour toutes les pages HTML
+app.get('/*', (req, res) => {
+  // Si c'est une route API, laisser Express la gérer
+  if (req.path.startsWith('/api/')) {
+    return;
+  }
+  // Sinon, servir les fichiers statiques ou index.html pour le SPA
+  const filePath = path.join(__dirname, 'public', req.path);
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+    res.sendFile(filePath);
+  } else {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  }
 });
 
 // Démarrage du serveur (seulement si exécuté directement, pas pour Vercel)
