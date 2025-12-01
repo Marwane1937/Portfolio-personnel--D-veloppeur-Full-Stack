@@ -12,13 +12,18 @@
       "dest": "/api/index.js"
     },
     {
-      "src": "/(.*\\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot|html))",
+      "src": "/(.*)",
       "dest": "/public/$1"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/public/index.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/public/index.html"
+      "source": "/code.html",
+      "destination": "/public/code.html"
     }
   ]
 }
-
